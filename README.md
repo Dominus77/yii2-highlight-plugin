@@ -46,6 +46,7 @@ Usage
 Once the extension is installed, simply use it in your code by  View:
 ```
 <?php
+/** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
 Configure plugin
@@ -58,7 +59,7 @@ See the following link for supported topics
 \dominus77\highlight\Plugin::$options = [
     'theme' => 'paraiso-dark',// Styles       
 ];
-
+/** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
 Line Numbers
@@ -71,7 +72,7 @@ By default, line numbers are disabled
     'lineNumbers' => true,    // Show line numbers
     'singleLine' => true,     // Show number if one line    
 ];
-
+/** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
 Custom init
@@ -93,7 +94,7 @@ Custom init
         });
     "),
 ];
-
+/** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
 More Information
