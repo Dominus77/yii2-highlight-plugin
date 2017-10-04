@@ -53,7 +53,7 @@ Configure plugin
 =====
 Theme
 -----
-See the following link for supported topics 
+See the following link for supported topics [Style](https://github.com/Dominus77/yii2-highlight-plugin/tree/master/src/styles)
 ```
 <?php
 \dominus77\highlight\Plugin::$options = [
