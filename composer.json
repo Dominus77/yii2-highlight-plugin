@@ -1,0 +1,21 @@
+{
+    "name": "dominus77/yii2-highlight-plugin",
+    "description": "Yii2 Syntax highlighting for the Web.",
+    "type": "yii2-extension",
+    "keywords": ["dominus77","yii2","extension","plugin","highlight","highlight-line-numbers"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexey Schevchenko",
+            "email": "ivanovosity@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dominus77\\highlight\\": ""
+        }
+    }
+}
