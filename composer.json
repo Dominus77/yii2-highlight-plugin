@@ -1,6 +1,6 @@
 {
     "name": "dominus77/yii2-highlight-plugin",
-    "description": "Yii2 Syntax highlighting for the Web.",
+    "description": "Yii2 Syntax highlighting with support for line numbering for the Web.",
     "type": "yii2-extension",
     "keywords": ["dominus77","yii2","extension","plugin","highlight","highlight-line-numbers"],
     "license": "BSD-3-Clause",
