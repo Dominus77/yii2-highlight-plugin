@@ -20,3 +20,7 @@ td.hljs-ln-numbers {
 td.hljs-ln-code {
     padding-left: 10px;
 }
+
+pre code.hljs {
+    white-space: pre !important;
+}
