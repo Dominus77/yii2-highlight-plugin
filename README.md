@@ -18,6 +18,13 @@ Explicit language specification
 <pre><code class="json">...</code></pre>
 ...
 ```
+Add class hljs, render full block code
+```
+<pre><code class="php hljs">...</code></pre>
+<pre><code class="css hljs">...</code></pre>
+<pre><code class="json hljs">...</code></pre>
+...
+```
 Watch [demo](https://highlightjs.org/static/demo/)
 
 Installation
