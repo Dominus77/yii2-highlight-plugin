@@ -24,13 +24,15 @@ class Plugin extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@dominus77/highlight/src';
+    public $sourcePath;
 
     public $css = [];
     public $js = [];
 
     public function init()
     {
+        $this->sourcePath = __DIR__ . '/src';
+
         $options = ArrayHelper::merge([
             'theme' => 'darkula',      // Themes
             'lineNumbers' => false,   // Show line numbers
@@ -41,6 +43,11 @@ class Plugin extends AssetBundle
         ], self::$options);
 
         $view = \Yii::$app->getView();
+
+        \Yii::$app->assetManager->bundles['yii\web\JqueryAsset'] = [
+            'sourcePath' => $this->sourcePath,
+            'js' => ['jquery/jquery-2.2.4.min.js'],
+        ];
 
         $this->css[] = 'styles/' . $options['theme'] . '.css';
         $this->js[] = 'highlight.pack.js';
