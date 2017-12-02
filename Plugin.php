@@ -44,15 +44,9 @@ class Plugin extends AssetBundle
 
         $view = \Yii::$app->getView();
 
-        \Yii::$app->assetManager->bundles['yii\web\JqueryAsset'] = [
-            'sourcePath' => $this->sourcePath,
-            'js' => ['jquery/jquery-2.2.4.min.js'],
-        ];
-
         $this->css[] = 'styles/' . $options['theme'] . '.css';
         $this->js[] = 'highlight.pack.js';
-
-        $view->registerJs($options['highlightInit']);
+        $view->registerJs($options['highlightInit'], $view::POS_END);
 
         if ($options['lineNumbers'] === true) {
             $this->css[] = ($options['cssLineNumbers'] === true) ? 'css/highlightjs-line-numbers.css' : '';
@@ -64,7 +58,7 @@ class Plugin extends AssetBundle
                     hljs.initLineNumbersOnLoad({$lineNumbersOptions});
                 ");
             }
-            $view->registerJs($options['lineNumbersInit']);
+            $view->registerJs($options['lineNumbersInit'], $view::POS_END);
         }
     }
 
