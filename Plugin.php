@@ -26,7 +26,14 @@ class Plugin extends AssetBundle
      */
     public $sourcePath;
 
+    /**
+     * @var array
+     */
     public $css = [];
+
+    /**
+     * @var array
+     */
     public $js = [];
 
     public function init()

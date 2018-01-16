@@ -49,7 +49,6 @@ or add
 
 to the require section of your `composer.json` file.
 
-
 ## Usage
 
 Once the extension is installed, simply use it in your code by  View:
@@ -102,6 +101,10 @@ By default, line numbers are disabled
 ];
 /** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
+```
+## Testing
+```
+$ phpunit
 ```
 ### More Information
 Please, check the [highlight.js](https://highlightjs.org/) and [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js)
