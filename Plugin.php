@@ -2,6 +2,7 @@
 
 namespace dominus77\highlight;
 
+use Yii;
 use yii\web\AssetBundle;
 use yii\web\JsExpression;
 use yii\helpers\ArrayHelper;
@@ -36,10 +37,21 @@ class Plugin extends AssetBundle
      */
     public $js = [];
 
+    /**
+     * @inheritdoc
+     */
     public function init()
     {
+        parent::init();
         $this->sourcePath = __DIR__ . '/src';
+        $this->initPlugin();
+    }
 
+    /**
+     * Initialize Highlight Plugin
+     */
+    public function initPlugin()
+    {
         $options = ArrayHelper::merge([
             'theme' => 'darkula',      // Themes
             'lineNumbers' => false,   // Show line numbers
@@ -49,24 +61,33 @@ class Plugin extends AssetBundle
             'lineNumbersInit' => '',   // init Line Numbers
         ], self::$options);
 
-        $view = \Yii::$app->getView();
-
+        $view = Yii::$app->getView();
         $this->css[] = 'styles/' . $options['theme'] . '.css';
         $this->js[] = 'highlight.pack.js';
         $view->registerJs($options['highlightInit'], $view::POS_END);
 
         if ($options['lineNumbers'] === true) {
-            $this->css[] = ($options['cssLineNumbers'] === true) ? 'css/highlightjs-line-numbers.css' : '';
-            $this->js[] = 'highlightjs-line-numbers.min.js';
-
-            if (empty($options['lineNumbersInit'])) {
-                $lineNumbersOptions = $this->getOptionsLine($options);
-                $options['lineNumbersInit'] = new JsExpression("
-                    hljs.initLineNumbersOnLoad({$lineNumbersOptions});
-                ");
-            }
-            $view->registerJs($options['lineNumbersInit'], $view::POS_END);
+            $this->initLineNumbers($options);
         }
+    }
+
+    /**
+     * LineNumbers
+     * @param array $options
+     */
+    public function initLineNumbers($options = [])
+    {
+        $view = Yii::$app->getView();
+        $this->css[] = ($options['cssLineNumbers'] === true) ? 'css/highlightjs-line-numbers.css' : '';
+        $this->js[] = 'highlightjs-line-numbers.min.js';
+
+        if (empty($options['lineNumbersInit'])) {
+            $lineNumbersOptions = $this->getOptionsLine($options);
+            $options['lineNumbersInit'] = new JsExpression("
+                hljs.initLineNumbersOnLoad({$lineNumbersOptions});
+            ");
+        }
+        $view->registerJs($options['lineNumbersInit'], $view::POS_END);
     }
 
     /**
