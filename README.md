@@ -1,5 +1,9 @@
-yii2-highlight-plugin
-======
+# yii2-highlight-plugin
+
+[![Latest Stable Version](https://poser.pugx.org/dominus77/yii2-highlight-plugin/v/stable)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
+[![License](https://poser.pugx.org/dominus77/yii2-highlight-plugin/license)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
+[![Total Downloads](https://poser.pugx.org/dominus77/yii2-highlight-plugin/downloads)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
+
 Yii2 Syntax highlighting with support for line numbering for the Web.
 
 176 languages and 79 styles
@@ -27,8 +31,7 @@ Add class hljs, render full block code
 ```
 Watch [demo](https://highlightjs.org/static/demo/)
 
-Installation
-------------
+## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
@@ -47,8 +50,7 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
------
+## Usage
 
 Once the extension is installed, simply use it in your code by  View:
 ```
@@ -56,10 +58,9 @@ Once the extension is installed, simply use it in your code by  View:
 /** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
-Configure plugin
-=====
-Theme
------
+## Configure plugin
+
+### Theme
 See the following link for supported topics [Styles](https://github.com/Dominus77/yii2-highlight-plugin/tree/master/src/styles)
 ```
 <?php
@@ -69,8 +70,7 @@ See the following link for supported topics [Styles](https://github.com/Dominus7
 /** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
-Line Numbers
------
+### Line Numbers
 By default, line numbers are disabled
 ```
 <?php
@@ -82,8 +82,7 @@ By default, line numbers are disabled
 /** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
-Custom init
------
+### Custom init
 ```
 <?php
 \dominus77\highlight\Plugin::$options = [
@@ -104,11 +103,8 @@ Custom init
 /** $this \yii\web\View */
 \dominus77\highlight\Plugin::register($this);
 ```
-More Information
------
+### More Information
 Please, check the [highlight.js](https://highlightjs.org/) and [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js)
 
-License
------
+### License
 The BSD License (BSD). Please see [License File](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md) for more information.
-
