@@ -2,6 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/dominus77/yii2-highlight-plugin/v/stable)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
 [![License](https://poser.pugx.org/dominus77/yii2-highlight-plugin/license)](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/Dominus77/yii2-highlight-plugin.svg?branch=master)](https://travis-ci.org/Dominus77/yii2-highlight-plugin)
 [![Total Downloads](https://poser.pugx.org/dominus77/yii2-highlight-plugin/downloads)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
 
 Yii2 Syntax highlighting with support for line numbering for the Web.
