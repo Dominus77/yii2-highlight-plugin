@@ -21,6 +21,7 @@ tools:
         timeout: 600
     php_analyzer: true
     php_code_coverage: false
+    php-scrutinizer: true
     php_code_sniffer:
         config:
             standard: PSR2
