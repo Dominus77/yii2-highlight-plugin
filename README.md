@@ -4,7 +4,7 @@
 [![License](https://poser.pugx.org/dominus77/yii2-highlight-plugin/license)](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md)
 [![Build Status](https://travis-ci.org/Dominus77/yii2-highlight-plugin.svg?branch=master)](https://travis-ci.org/Dominus77/yii2-highlight-plugin)
 [![codecov](https://codecov.io/gh/Dominus77/yii2-highlight-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/Dominus77/yii2-highlight-plugin)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/?branch=master)
 [![Total Downloads](https://poser.pugx.org/dominus77/yii2-highlight-plugin/downloads)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2/mini.png)](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2)
 
