@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/dominus77/yii2-highlight-plugin/v/stable)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
 [![License](https://poser.pugx.org/dominus77/yii2-highlight-plugin/license)](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md)
-[![Build Status](https://travis-ci.org/Dominus77/yii2-highlight-plugin.svg?branch=master)](https://travis-ci.org/Dominus77/yii2-highlight-plugin)
+[![Build Status](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/build-status/master)
 [![codecov](https://codecov.io/gh/Dominus77/yii2-highlight-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/Dominus77/yii2-highlight-plugin)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/?branch=master)
 [![Total Downloads](https://poser.pugx.org/dominus77/yii2-highlight-plugin/downloads)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
