@@ -110,10 +110,10 @@ By default, line numbers are disabled
 ```
 $ phpunit
 ```
-### More Information
+## More Information
 Please, check the [highlight.js](https://highlightjs.org/) and [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js)
 
-### License
+## License
 The BSD License (BSD). Please see [License File](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md) for more information.
 
 ## SensioLabs
