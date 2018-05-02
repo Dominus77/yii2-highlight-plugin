@@ -115,7 +115,7 @@ $ phpunit
 Please, check the [highlight.js](https://highlightjs.org/) and [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js)
 
 ## License
-The BSD License (BSD). Please see [License File](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md) for more information.
 
 ## Sensio Labs
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2/big.png)](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2)

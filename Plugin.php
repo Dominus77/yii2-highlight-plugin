@@ -6,6 +6,7 @@ use Yii;
 use yii\web\AssetBundle;
 use yii\web\JsExpression;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Json;
 
 /**
  * Class Plugin
@@ -53,12 +54,12 @@ class Plugin extends AssetBundle
     public function initPlugin()
     {
         $options = ArrayHelper::merge([
-            'theme' => 'darkula',      // Themes
+            'theme' => 'darkula',     // Themes
             'lineNumbers' => false,   // Show line numbers
             'singleLine' => false,    // Show number if one line
             'cssLineNumbers' => true, // CSS style Line Numbers true/false (Optionals)
             'highlightInit' => new JsExpression("hljs.initHighlightingOnLoad();"), // init Highlight
-            'lineNumbersInit' => '',   // init Line Numbers
+            'lineNumbersInit' => '',  // init Line Numbers
         ], self::$options);
 
         $view = Yii::$app->getView();
@@ -92,12 +93,12 @@ class Plugin extends AssetBundle
 
     /**
      * Options highlightjs-line-numbers
-     * @param $options
+     * @param $options array
      * @return string
      */
-    public function getOptionsLine($options)
+    public function getOptionsLine($options = [])
     {
-        return json_encode([
+        return Json::encode([
             'singleLine' => $options['singleLine'],
         ]);
     }
