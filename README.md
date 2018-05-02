@@ -7,7 +7,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Dominus77/yii2-highlight-plugin/?branch=master)
 [![Total Downloads](https://poser.pugx.org/dominus77/yii2-highlight-plugin/downloads)](https://packagist.org/packages/dominus77/yii2-highlight-plugin)
 [![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMSNEVJL7CGKJ "Donate once-off to this project using Paypal")
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2/mini.png)](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/24ef1298-754e-4081-b344-bf5216b222cd/mini.png)](https://insight.sensiolabs.com/projects/24ef1298-754e-4081-b344-bf5216b222cd)
 
 Yii2 Syntax highlighting with support for line numbering for the Web.
 
@@ -118,4 +118,4 @@ Please, check the [highlight.js](https://highlightjs.org/) and [highlightjs-line
 The MIT License (MIT). Please see [License File](https://github.com/Dominus77/yii2-highlight-plugin/blob/master/LICENSE.md) for more information.
 
 ## Sensio Labs
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2/big.png)](https://insight.sensiolabs.com/projects/bce9f21b-88c4-4015-b225-af87826f51b2)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/24ef1298-754e-4081-b344-bf5216b222cd/big.png)](https://insight.sensiolabs.com/projects/24ef1298-754e-4081-b344-bf5216b222cd)
